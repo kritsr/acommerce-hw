@@ -53,7 +53,7 @@ class Gallery extends React.Component {
       <div className='row'>
         {this.state.list.map(item=><Card item={item} key={item.id}/>)}
       </div>
-      {/* <nav>
+      <nav>
         <ul className="pagination justify-content-center">
           <li className="page-item"><a className="page-link" href="#">&lt;</a></li>
           <li className="page-item"><a className="page-link" href="#">1</a></li>
@@ -61,7 +61,7 @@ class Gallery extends React.Component {
           <li className="page-item"><a className="page-link" href="#">3</a></li>
           <li className="page-item"><a className="page-link" href="#">&gt;</a></li>
         </ul>
-      </nav> */}
+      </nav>
     </div>
     );
   }
