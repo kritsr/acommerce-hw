@@ -28,7 +28,7 @@ export default class Gallery extends React.Component {
   }
 
   changeItemPerPage = (i) => {
-    // TODO: Check if i valid
+    if (!Number.isInteger(i) || i === this.state.itemPerPage) return;
     this.setState({
       itemPerPage: i
     })
@@ -44,7 +44,9 @@ export default class Gallery extends React.Component {
         </div>
         <Pagination
           onChangePage={this.changePage}
+          onChangeItemPerPage={this.changeItemPerPage}
           currentPage={this.state.currentPage}
+          itemPerPage={this.state.itemPerPage}
           pageCount={Math.ceil(this.state.list.length / this.state.itemPerPage)}
         />
       </div>
