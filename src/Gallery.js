@@ -43,7 +43,7 @@ export default class Gallery extends React.Component {
           {pageItems.map(item => <ItemCard item={item} key={item.id} />)}
         </div>
         <Pagination
-          onClick={this.changePage}
+          onChangePage={this.changePage}
           currentPage={this.state.currentPage}
           pageCount={Math.ceil(this.state.list.length / this.state.itemPerPage)}
         />

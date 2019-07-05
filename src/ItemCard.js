@@ -12,7 +12,7 @@ function getStarRating(rate) {
 export default class ItemCard extends React.Component {
   render() {
     return (
-      <div className='col-lg-3 col-md-4 col-sm-6 mb-2'>
+      <div className='col-lg-3 col-sm-6 mb-2'>
         <div className='card'>
           <img alt='' className='card-img-top' src={this.props.item.image_url}></img>
           <div className='card-body'>
