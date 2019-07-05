@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/acommerce-hw/static/css/main.3aa049fd.chunk.css",
-    "main.js": "/acommerce-hw/static/js/main.b89e7767.chunk.js",
-    "main.js.map": "/acommerce-hw/static/js/main.b89e7767.chunk.js.map",
+    "main.css": "/acommerce-hw/static/css/main.b17946bd.chunk.css",
+    "main.js": "/acommerce-hw/static/js/main.528dfe8f.chunk.js",
+    "main.js.map": "/acommerce-hw/static/js/main.528dfe8f.chunk.js.map",
     "runtime~main.js": "/acommerce-hw/static/js/runtime~main.36f25a5c.js",
     "runtime~main.js.map": "/acommerce-hw/static/js/runtime~main.36f25a5c.js.map",
-    "static/js/2.b0746586.chunk.js": "/acommerce-hw/static/js/2.b0746586.chunk.js",
-    "static/js/2.b0746586.chunk.js.map": "/acommerce-hw/static/js/2.b0746586.chunk.js.map",
+    "static/js/2.2fbc55cc.chunk.js": "/acommerce-hw/static/js/2.2fbc55cc.chunk.js",
+    "static/js/2.2fbc55cc.chunk.js.map": "/acommerce-hw/static/js/2.2fbc55cc.chunk.js.map",
     "index.html": "/acommerce-hw/index.html",
-    "precache-manifest.5f56b4bcde4458fca5bf3fa85f9f6b91.js": "/acommerce-hw/precache-manifest.5f56b4bcde4458fca5bf3fa85f9f6b91.js",
+    "precache-manifest.c86ac55147e216279afcc66e91647925.js": "/acommerce-hw/precache-manifest.c86ac55147e216279afcc66e91647925.js",
     "service-worker.js": "/acommerce-hw/service-worker.js",
-    "static/css/main.3aa049fd.chunk.css.map": "/acommerce-hw/static/css/main.3aa049fd.chunk.css.map"
+    "static/css/main.b17946bd.chunk.css.map": "/acommerce-hw/static/css/main.b17946bd.chunk.css.map"
   }
 }
